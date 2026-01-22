@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = "samcon_perception" type = "imu_.py" name = "imu_head" args="head"/>
+    <!-- <node pkg = "samcon_perception" type = "imu_.py" name = "imu_left_thigh" args="left_thigh" output = "screen"/>
+    <node pkg = "samcon_perception" type = "imu_.py" name = "imu_right_thigh" args="right_thigh" />
+    <node pkg = "samcon_perception" type = "imu_.py" name = "imu_right_shank" args="right_shank" /> -->
+    <node pkg = "samcon_perception" type = "pose_publisher.py" name = "imu_multi" args="imu_head" output = "screen"/>
+</launch>
