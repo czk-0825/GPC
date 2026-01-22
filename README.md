@@ -64,4 +64,5 @@ rosrun gaze_pros_control multi_imu_rec.py
 ## 5. Related Publications
 
 [1] Chen X, Chen Z, Wang Y, et al. A Gaze-Guided Human Locomotion Intention Recognition and Volitional Control Method for Knee-Ankle Prostheses[J]. IEEE Transactions on Cognitive and Developmental Systems, 2025.
+
 [2] Chen Z, Xu H, Chen X, et al. A Human Vision-aided Method for Foot Placement Prediction on Rough Terrains. (Under review)
