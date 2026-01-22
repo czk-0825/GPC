@@ -1,6 +1,10 @@
-# GPC - Gaze-based Prosthesis Control
+# Gaze-based Prosthesis Control
 
 This project proposes a gaze-based control framework for powered prostheses.
+
+<kbd>
+  <img src="framework.jpg">
+</kbd>
 
 ## 1. Hardware
 
