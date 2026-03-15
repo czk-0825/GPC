@@ -1,0 +1,16 @@
+<launch>
+
+    <!-- <node pkg = "samcon_perception" type = "imu_serial.py" name = "imu_left_thigh" args="left_thigh /dev/ttyUSB0" output="screen"/> -->
+    <!-- <node pkg = "samcon_perception" type = "imu_serial.py" name = "imu_right_thigh" args="right_thigh /dev/ttyUSB3" output="screen"/> -->
+    <!-- <node pkg = "samcon_perception" type = "imu_serial.py" name = "imu_left_shank" args="left_shank /dev/ttyUSB1" output="screen"/> -->
+    <!-- <node pkg = "samcon_perception" type = "imu_serial.py" name = "imu_right_shank" args="right_shank /dev/ttyUSB2" output="screen" /> -->
+    <!-- <node pkg = "samcon_perception" type = "imu_serial.py" name = "imu_left_foot" args="left_foot /dev/ttyUSB4" output="screen"/> -->
+    <node pkg = "samcon_perception" type = "imu_serial.py" name = "imu_right_foot" args="right_foot /dev/ttyUSB0" output="screen"/>
+
+    <!-- <node pkg = "samcon_perception" type = "pose_publisher_serial.py" name = "imu_publisher_left_thigh" args="left_thigh"/> -->
+    <!-- <node pkg = "samcon_perception" type = "pose_publisher_serial.py" name = "imu_publisher_left_shank" args="left_shank"/> -->
+    <!-- <node pkg = "samcon_perception" type = "pose_publisher_serial.py" name = "imu_publisher_left_foot" args="left_foot"/> -->
+    <!-- <node pkg = "samcon_perception" type = "pose_publisher_serial.py" name = "imu_publisher_right_thigh" args="right_thigh"/> -->
+    <!-- <node pkg = "samcon_perception" type = "pose_publisher_serial.py" name = "imu_publisher_right_shank" args="right_shank"/> -->
+    <!-- <node pkg = "samcon_perception" type = "pose_publisher_serial.py" name = "imu_publisher_right_foot" args="right_foot"/>  -->
+</launch>
